@@ -1,0 +1,28 @@
+body {
+    background-color: rgb(57, 101, 136);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.quiz-body {
+    background-color: rgb(252, 214, 233);
+    max-width: 60%;
+    max-height: 50%;
+    border: solid black 2px;
+    border-radius: 10px;
+}
+
+.answersList {
+    display: none;
+}
+.answerButtons:hover{
+    color: lightblue;
+}
+.answerButtons {
+    background-color: rgb(50, 223, 122);
+    border: solid 1px black;
+    border-radius: 10px;
+    padding: 15px;
+    max-width: 350px;
+}
+.highScores {
+    display: none;
+}
